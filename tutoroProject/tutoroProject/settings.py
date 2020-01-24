@@ -100,11 +100,12 @@ WSGI_APPLICATION = 'tutoroProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['DATABASE_NAME'],
-        'USER': os.environ['DATABASE_USER'],
-        'PASSWORD': os.environ['DATABASE_PASSWORD'],
-        'HOST': os.environ['DATABASE_HOST'],
-        'PORT': int(os.environ['DATABASE_PORT']),
+        'URL': os.environ['DATABASE_URL'],
+        # 'NAME': os.environ['DATABASE_NAME'],
+        # 'USER': os.environ['DATABASE_USER'],
+        # 'PASSWORD': os.environ['DATABASE_PASSWORD'],
+        # 'HOST': os.environ['DATABASE_HOST'],
+        # 'PORT': int(os.environ['DATABASE_PORT']),
     }
 }
 DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
