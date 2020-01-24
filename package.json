@@ -2,17 +2,21 @@
   "name": "tutoro",
   "version": "1.0.0",
   "description": "A peer tutor matching service",
-  "engines": {
-    "node": "10.16.3"
-  },
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./tutoroProject/frontend/src/index.js --output ./tutoroProject/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./tutoroProject/frontend/src/index.js --output ./tutoroProject/frontend/static/frontend/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-jamshidi/tutoro.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sina-jamshidi/tutoro/issues"
+  },
   "homepage": "https://tutoro-demo.herokuapp.com",
   "devDependencies": {
     "@babel/core": "^7.7.7",
