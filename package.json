@@ -2,6 +2,9 @@
   "name": "tutoro",
   "version": "1.0.0",
   "description": "A peer tutor matching service",
+  "engines": {
+    "node": "10.16.3"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./tutoroProject/frontend/src/index.js --output ./tutoroProject/frontend/static/frontend/main.js",
