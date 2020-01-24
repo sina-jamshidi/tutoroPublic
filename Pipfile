@@ -13,6 +13,7 @@ dj-database-url = "*"
 psycopg2-binary = "*"
 django-rest-knox = "*"
 djangorestframework = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
