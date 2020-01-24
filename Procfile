@@ -1,2 +1,2 @@
-web: gunicorn tutoroProject/wsgi.wsgi
+web: gunicorn tutoroProject/tutoroProject.wsgi
 release: python tutoroProject/manage.py migrate
