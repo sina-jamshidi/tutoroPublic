@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/sina-jamshidi/tutoroPublic/issues"
   },
-  "homepage": "https://github.com/sina-jamshidi/tutoroPublic#readme",
+  "homepage": "demo.tutoro.app",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
