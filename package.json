@@ -1,0 +1,50 @@
+{
+  "name": "tutoro",
+  "version": "1.0.0",
+  "description": "A peer tutor matching service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./tutoroProject/frontend/src/index.js --output ./tutoroProject/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./tutoroProject/frontend/src/index.js --output ./tutoroProject/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-jamshidi/tutoro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sina-jamshidi/tutoroPublic/issues"
+  },
+  "homepage": "https://github.com/sina-jamshidi/tutoroPublic#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-alert": "^6.0.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-list": "^0.8.13",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.0.8",
+    "react-transition-group": "^4.3.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
