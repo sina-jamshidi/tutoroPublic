@@ -1,1 +1,1 @@
-release: python manage.py migrate
+web: python tutoroProject/manage.py runserver
