@@ -14,6 +14,7 @@ psycopg2-binary = "*"
 django-rest-knox = "*"
 djangorestframework = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.6"
