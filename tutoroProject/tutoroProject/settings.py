@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['demo.tutoro.app']
 
@@ -145,3 +145,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 PASSWORD_RESET_TIMEOUT_DAYS = 1
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
