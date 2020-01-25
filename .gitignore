@@ -8,6 +8,8 @@ __pycache__/
 # C extensions
 *.so
 
+.md
+
 # Distribution / packaging
 .Python
 build/
