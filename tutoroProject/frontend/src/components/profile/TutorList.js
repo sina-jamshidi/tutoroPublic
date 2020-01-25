@@ -78,7 +78,6 @@ export class TutorList extends Component {
       } else {
         return (
           <Fragment>
-            <h2>Courses You Can Tutor</h2>
             <table className="table table-striped">
               <thead>
                 <tr>

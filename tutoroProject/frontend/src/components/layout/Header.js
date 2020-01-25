@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { Button, Dropdown } from 'react-bootstrap';
+import { Button, Image } from 'react-bootstrap';
 import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { logout } from '../../actions/auth';
+import logo from '../../images/logo.png'
 
 export class Header extends Component {
     static propTypes = {
@@ -18,7 +19,7 @@ export class Header extends Component {
                 <form className="form-inline my-2 my-lg-0">
                     <span className="navbar-text mr-3">
                         <Link to='/profile'>
-                        <Button variant="outline-dark">{user ? `Hi ${user.first_name}` : "" }</Button>    
+                        <Button className="profileButton" variant="outline-dark">{user ? `Hi ${user.first_name}` : "" }</Button>    
                         </Link>
                     </span>
                     <Button onClick={this.props.logout} variant="outline-primary">Logout</Button>
@@ -45,7 +46,8 @@ export class Header extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <Link to ='/'><a className="navbar-brand" href="#">Tutoro</a></Link>
+                        {/* <Link to ='/'><a className="navbar-brand" href="#">Tutoro</a></Link> */}
+                        <Link to ='/'><Image className="navbar-brand" src={logo} fluid /></Link>
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
                             <Link to='/'><a className="nav-link" href="#">Matches</a></Link>
@@ -54,6 +56,9 @@ export class Header extends Component {
                             <Link to='/profile'><a className="nav-link" href="#">Profile</a></Link>
                         </li> */}
                         </ul>
+                        <p className="form-inline my-2 mr-5 my-lg-0">
+                            This is a demo. Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>. Github here.
+                        </p>
                         { isAuthenticated ? authLinks : guestLinks }
                     </div>
                 </div>

@@ -26,9 +26,9 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['demo.tutoro.app', 'tutoro-demo.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','demo.tutoro.app', 'tutoro-demo.herokuapp.com']
 
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -101,15 +101,15 @@ WSGI_APPLICATION = 'tutoroProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'URL': os.environ['DATABASE_URL'],
-        # 'NAME': os.environ['DATABASE_NAME'],
-        # 'USER': os.environ['DATABASE_USER'],
-        # 'PASSWORD': os.environ['DATABASE_PASSWORD'],
-        # 'HOST': os.environ['DATABASE_HOST'],
-        # 'PORT': int(os.environ['DATABASE_PORT']),
+        # 'URL': os.environ['DATABASE_URL'],
+        'NAME': os.environ['DATABASE_NAME'],
+        'USER': os.environ['DATABASE_USER'],
+        'PASSWORD': os.environ['DATABASE_PASSWORD'],
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
-DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+# DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
 
 # Password validation

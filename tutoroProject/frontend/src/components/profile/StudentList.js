@@ -71,7 +71,6 @@ export class StudentList extends Component {
       } else {
         return (
           <Fragment>
-            <h2>Courses You Need Help With</h2>
             <table className="table table-striped">
               <thead>
                 <tr>

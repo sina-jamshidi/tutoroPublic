@@ -114,7 +114,7 @@ export class FindTutor extends Component {
             ))
             return (
                 <Fragment>
-                    <Container>
+                    <Container className="findTutorContainer">
                         <Col>
                             <h3>Matching Tutors</h3>
                             <h5>Filters:</h5>

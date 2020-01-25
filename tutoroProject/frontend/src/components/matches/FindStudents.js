@@ -116,7 +116,7 @@ export class FindStudents extends Component {
             return (
                 <Fragment>
                     <Container>
-                        <Col>
+                        <Col className="findStudentContainer">
                             <h3>Matching Students</h3>
                             <h5>Filters:</h5>
                             <Select
