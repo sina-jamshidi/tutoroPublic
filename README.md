@@ -1,6 +1,6 @@
 # Tutoro
 
-Tutoro is an open source peer tutor matching service made with Django-React-Redux-PostgresSQL.
+Tutoro is a peer tutor matching service made with Django-React-Redux-PostgresSQL.
 
 ![Tech stack](https://i.imgur.com/Fg7tWTy.png)
 
