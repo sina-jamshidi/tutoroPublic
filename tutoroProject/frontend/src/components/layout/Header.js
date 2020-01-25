@@ -57,7 +57,7 @@ export class Header extends Component {
                         </li> */}
                         </ul>
                         <p className="form-inline my-2 mr-5 my-lg-0">
-                            This is a demo. Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>. Github here.
+                            This is a demo. Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>. <a href="https://github.com/sina-jamshidi/tutoroPublic">Github here.</a>
                         </p>
                         { isAuthenticated ? authLinks : guestLinks }
                     </div>
