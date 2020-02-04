@@ -16,18 +16,10 @@ const middleWare = [thunk];
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-// let store = createStore(
-//     rootReducer,
-//     initialState,
-//     composeWithDevTools(applyMiddleware(...middleWare))
-// );
-
 let store = createStore(
     persistedReducer,
     initialState,
-    // depending on production or dev, comment out the appropriate line 
-    // composeWithDevTools(applyMiddleware(...middleWare))
-    applyMiddleware(...middleWare)
+    composeWithDevTools(applyMiddleware(...middleWare))
 );
 
 let persistor = persistStore(store);
