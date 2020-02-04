@@ -25,7 +25,9 @@ const persistedReducer = persistReducer(persistConfig, rootReducer);
 let store = createStore(
     persistedReducer,
     initialState,
-    composeWithDevTools(applyMiddleware(...middleWare))
+    // depending on production or dev, comment out the appropriate line
+    // composeWithDevTools(applyMiddleware(...middleWare))
+    applyMiddleware(...middleWare)
 );
 
 let persistor = persistStore(store);
