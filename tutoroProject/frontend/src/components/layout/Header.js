@@ -52,21 +52,12 @@ export class Header extends Component {
                         <li className="nav-item">
                             <Link to='/'><a className="nav-link" href="#">Matches</a></Link>
                         </li>
-<<<<<<< HEAD
                         <li className="nav-item">
                             <p className="form-inline my-2">
                                 | This is a demo. &nbsp;<a href="https://github.com/sina-jamshidi/tutoroPublic" target="_blank"><i className="fab fa-github"></i></a>
                             </p>
                         </li>
-=======
-                        {/* <li className="nav-item">
-                            <Link to='/profile'><a className="nav-link" href="#">Profile</a></Link>
-                        </li> */}
->>>>>>> parent of 3cacfcd... reorganize files. add footer and favicon
                         </ul>
-                        <p className="form-inline my-2 mr-5 my-lg-0">
-                            This is a demo. Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>. <a href="https://github.com/sina-jamshidi/tutoroPublic">Github here.</a>
-                        </p>
                         { isAuthenticated ? authLinks : guestLinks }
                     </div>
                 </div>
