@@ -54,8 +54,9 @@ export class StudentCard extends Component {
             let email;
 
             if(!this.state.email) {
-                email = <button onClick={this.getEmail.bind(this, match_id, course_id)}>
-                Get Email</button>;
+                // email = <button onClick={this.getEmail.bind(this, match_id, course_id)}>
+                // Get Email</button>;
+                email = <a onClick={this.getEmail.bind(this, match_id, course_id)}>Get Email</a>;
             } else if (!this.state.email && this.loadingEmail) {
                 email = <Spinner animation="border" role="status">
                 <span className="sr-only">Loading...</span></Spinner>;
