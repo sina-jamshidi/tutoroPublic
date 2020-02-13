@@ -6,8 +6,8 @@ import { login } from '../../actions/auth';
 
 export class Login extends Component {
     state = {
-        username: 'demouser',
-        password: 'tutormepls',
+        username: '',
+        password: '',
     };
 
     static propTypes = {
@@ -32,9 +32,6 @@ export class Login extends Component {
         const { username, password } = this.state;
         return (
             <div className="col-md-6 m-auto">
-            <p>
-              Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>.
-            </p>
             <div className="card card-body mt-5">
               <h2 className="text-center">Login</h2>
               <form onSubmit={this.onSubmit}>

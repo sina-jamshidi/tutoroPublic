@@ -24,8 +24,6 @@ import { PersistGate } from 'redux-persist/integration/react'
 import { loadUser } from '../actions/auth';
 import { getCourses } from '../actions/courses';
 
-import css from '../../static/frontend/customStyles.css';
-
 // Alerts
 const alertOptions = {
     timeout: 3000,

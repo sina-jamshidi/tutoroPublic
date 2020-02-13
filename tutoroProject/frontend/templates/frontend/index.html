@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tutoro</title>
-    <script src="https://kit.fontawesome.com/98f6fc01f0.js" crossorigin="anonymous"></script>
+    {% comment %} <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css"> {% endcomment %}
     <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous"
     />
-    {% load static %}
-    <link rel="shortcut icon" type="image/png" href="{% static 'frontend/images/icon.ico' %}"/>
+    <style>
+    .navbar-brand:hover {
+        opacity: 0.7;
+    }
+    </style>
+    <title>Tutoro</title>
 </head>
 <body>
     <div id="app"></div>
