@@ -4,7 +4,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { logout } from '../../actions/auth';
-import logo from '../../images/logo.png'
+import logo from '../../../static/frontend/images/logo.png'
 
 export class Header extends Component {
     static propTypes = {
@@ -49,16 +49,15 @@ export class Header extends Component {
                         {/* <Link to ='/'><a className="navbar-brand" href="#">Tutoro</a></Link> */}
                         <Link to ='/'><Image className="navbar-brand" src={logo} fluid /></Link>
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                        {/* <li className="nav-item">
+                            <p className="form-inline my-2">
+                                <a href="https://github.com/sina-jamshidi/tutoroPublic"><i class="fab fa-github"></i></a>
+                            </p>
+                        </li> */}
                         <li className="nav-item">
                             <Link to='/'><a className="nav-link" href="#">Matches</a></Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link to='/profile'><a className="nav-link" href="#">Profile</a></Link>
-                        </li> */}
                         </ul>
-                        <p className="form-inline my-2 mr-5 my-lg-0">
-                            This is a demo. Please log in with username: <b>demouser</b>, password: <b>tutormepls</b>. <a href="https://github.com/sina-jamshidi/tutoroPublic">Github here.</a>
-                        </p>
                         { isAuthenticated ? authLinks : guestLinks }
                     </div>
                 </div>
