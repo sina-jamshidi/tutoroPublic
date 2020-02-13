@@ -57,6 +57,11 @@ export class Header extends Component {
                         <li className="nav-item">
                             <Link to='/'><a className="nav-link" href="#">Matches</a></Link>
                         </li>
+                        <li className="nav-item">
+                            <p className="form-inline my-2">
+                                | This is a demo. &nbsp;<a href="https://github.com/sina-jamshidi/tutoroPublic" target="_blank"><i className="fab fa-github"></i></a>
+                            </p>
+                        </li>
                         </ul>
                         { isAuthenticated ? authLinks : guestLinks }
                     </div>

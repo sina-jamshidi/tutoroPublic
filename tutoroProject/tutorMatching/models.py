@@ -32,7 +32,7 @@ class Tutors(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     course = models.ForeignKey(Courses, on_delete=models.CASCADE)
     # TODO: available = models.BooleanField()
-    price = models.FloatField()
+    price = models.DecimalField(max_digits=6, decimal_places=2)
     # TODO: subscribed = models.BooleanField(default=False)
 
     def __str__(self):

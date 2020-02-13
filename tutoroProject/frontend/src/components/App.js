@@ -5,7 +5,6 @@ import { Provider as AlertProvider } from 'react-alert';
 import AlertTemplate from 'react-alert-template-basic';
 
 import Header from './layout/Header';
-import Footer from './layout/Footer';
 import Alerts from './layout/Alerts';
 import Dashboard from './matches/Dashboard';
 import FindStudents from './matches/FindStudents';
@@ -73,7 +72,6 @@ class App extends Component {
                                         id={match.params.id} /> )}/>
                                     </Switch>
                                 </div>
-                                <Footer />
                             </Fragment>
                         </Router>
                     </AlertProvider>

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
 import Badge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
 import PropTypes from 'prop-types';
 import { addMatchStudent } from '../../actions/match';
 
@@ -55,8 +56,9 @@ export class TutorCard extends Component {
             let email;
 
             if(!this.state.email) {
-                email = <button variant="primary" onClick={this.getEmail.bind(this, match_id, course_id)}>
-                Get Email</button>;
+                email = <Button variant="light" size="sm" 
+                    onClick={this.getEmail.bind(this, match_id, course_id)}>
+                Get Email</Button>;
             } else if (!this.state.email && this.loadingEmail) {
                 email = <Spinner animation="border" role="status">
                 <span className="sr-only">Loading...</span></Spinner>;

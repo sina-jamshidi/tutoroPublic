@@ -85,6 +85,12 @@ export class Alerts extends Component {
             if (message.demoPasswordMessage) {
                 alert.error(message.demoPasswordMessage);
             }
+            if (message.priceUpdated) {
+                alert.success(message.priceUpdated);
+            }
+            if (message.invalidPrice) {
+                alert.error(message.invalidPrice);
+            }
         }
     }
 

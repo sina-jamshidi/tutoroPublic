@@ -3,9 +3,7 @@ import { connect } from 'react-redux';
 import { Accordion, Button, Card, ListGroup } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Joyride from 'react-joyride';
-import StudentForm from './StudentForm';
 import StudentList from './StudentList';
-import TutorForm from './TutorForm';
 import TutorList from './TutorList';
 import PasswordChange from '../accounts/PasswordChange';
 import { getProfile } from '../../actions/profile';
@@ -30,8 +28,8 @@ export class ProfilePage extends Component {
                 disableBeacon:true
             },
             {
-                target: '.studentForm',
-                content: "You can add more here. There is a maximum of 5 courses you can list",
+                target: '.studentList',
+                content: "There is a maximum of 5 courses you can list",
                 placement:"top-start",
                 disableBeacon:true
             },
@@ -90,14 +88,10 @@ export class ProfilePage extends Component {
                 <div className="studentList">
                 <StudentList />
                 </div>
-                <div className="studentForm">
-                <StudentForm />
-                </div>
                 <h2>Courses you can tutor:</h2>
                 <div className="tutorList">
                 <TutorList />
                 </div>
-                <TutorForm />
             </div>
         )
     }

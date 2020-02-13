@@ -1,5 +1,6 @@
 import { GET_PROFILE_SUCCESS, LOGOUT_SUCCESS, ADD_STUDENT_SUCCESS, REMOVE_STUDENT_SUCCESS,
-    ADD_TUTOR_SUCCESS, REMOVE_TUTOR_SUCCESS} from '../actions/types';
+    ADD_TUTOR_SUCCESS, REMOVE_TUTOR_SUCCESS, UPDATE_TUTOR_PRICE_SUCCESS, UPDATE_TUTOR_PRICE_FAIL } 
+    from '../actions/types';
 
 const initialState = {
     profile : null
@@ -44,6 +45,20 @@ export default function(state = initialState, action) {
                     tutor: state.profile.tutor.filter(obj => obj.course !== action.payload)
                 }
             };
+        case UPDATE_TUTOR_PRICE_SUCCESS:
+            return {
+                ...state,
+                profile: {
+                    student: state.profile.student,
+                    tutor: state.profile.tutor.map(obj => {
+                        if(obj.user === action.payload.user && obj.course === action.payload.course) {
+                            return action.payload;
+                        } else {
+                            return obj;
+                        }
+                    })
+                }
+            }
         case LOGOUT_SUCCESS:
             return {
                 ...state,

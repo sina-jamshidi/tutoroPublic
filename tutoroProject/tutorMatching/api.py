@@ -5,66 +5,8 @@ from knox.auth import TokenAuthentication
 from rest_framework.response import Response
 from django.core.exceptions import ObjectDoesNotExist
 from .serializers import ModifyStudentSerializer, ModifyTutorSerializer, GetStudentsSerializer, \
-    GetTutorsSerializer, CoursesSerializer, MatchesSerializer, RatingsSerializer, UsersSerializer
+    GetTutorsSerializer, CoursesSerializer, MatchesSerializer, UsersSerializer
 
-
-# Users Viewset
-# class UsersViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = UsersSerializer
-
-# Students Viewset
-# class StudentsViewSet(viewsets.ModelViewSet):
-#     # queryset = Students.objects.all()
-#     permission_classes = [
-#         permissions.IsAuthenticated,
-#     ]
-
-#     serializer_class = StudentsSerializer
-
-#     def get_queryset(self):
-#         tutoring_courses = Tutors.objects.filter(user=self.request.user).values_list('course_id', flat=True)
-#         matching_students = Students.objects.exclude(user=self.request.user
-#             ).filter(course_id__in=tutoring_courses)
-#         return matching_students
-
-#     # def perform_create(self, serializer):
-#     #     serializer.save(user = self.request.user)
-
-
-# Tutors Viewset
-# class TutorsViewSet(viewsets.ModelViewSet):
-#     queryset = Tutors.objects.all()
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = TutorsSerializer
-
-# # Matches Viewset
-# class MatchesViewSet(viewsets.ModelViewSet):
-#     queryset = Matches.objects.all()
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = MatchesSerializer
-
-# # Courses Viewset
-# class CoursesViewSet(viewsets.ModelViewSet):
-#     queryset = Courses.objects.all()
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = CoursesSerializer
-
-# class RatingsViewSet(viewsets.ModelViewSet):
-#     queryset = Ratings.objects.all()
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = RatingsSerializer
 class GetCoursesAPI(generics.ListAPIView):
     queryset = Courses.objects.all()
     permission_classes = [
@@ -163,6 +105,28 @@ class AddTutorEntryAPI(generics.GenericAPIView):
         if(Students.objects.filter(user=user.id).filter(course=request.data['course_id'])):
             return Response({"mutual_exclusion": ["You cannot tutor and be tutored in the same course"]},\
                  status=status.HTTP_403_FORBIDDEN)
+        obj = serializer.save()
+        data = ModifyTutorSerializer(obj, context=self.get_serializer_context()).data
+        return Response({
+            'user': user.id,
+            'course': data['course'],
+            'price': data['price']
+        })
+
+# API to update tutor price
+class UpdateTutorPriceAPI(generics.GenericAPIView):
+    serializer_class = ModifyTutorSerializer
+    permission_classes = [
+        permissions.IsAuthenticated,
+    ]
+    authentication_classes = (TokenAuthentication,)
+
+    def put(self, request, *args, **kwargs):
+        user = self.request.user
+        tutor_obj = Tutors.objects.filter(user=user.id).filter(course=request.data['course_id'])
+        serializer = self.get_serializer(tutor_obj[0], data={'price':request.data['price']},\
+             partial=True)
+        serializer.is_valid(raise_exception=True)
         obj = serializer.save()
         data = ModifyTutorSerializer(obj, context=self.get_serializer_context()).data
         return Response({

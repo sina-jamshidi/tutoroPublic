@@ -15,12 +15,14 @@ class ModifyStudentSerializer(serializers.ModelSerializer):
         model = Students
         fields = ('user', 'course')
 
-# Modify Tutor (add/remove course you can tutor) serializer
+# Modify Tutor (add/remove course you can tutor, update price) serializer
 class ModifyTutorSerializer(serializers.ModelSerializer):
     user = UsersSerializer
     class Meta:
         model = Tutors
         fields = ('user', 'course', 'price')
+
+    
 
 # Get Student Matches (get students you can tutor) serializer
 class GetStudentsSerializer(serializers.ModelSerializer):
@@ -41,19 +43,8 @@ class MatchesSerializer(serializers.ModelSerializer):
         model = Matches
         fields = '__all__'
 
-# Matches serializer - not needed right now
-# class MatchesSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Matches
-#         fields = ['student_id', 'tutor_id', 'course_id']
-
 # Courses serializer
 class CoursesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Courses
-        fields = '__all__'
-
-class RatingsSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Ratings
         fields = '__all__'
