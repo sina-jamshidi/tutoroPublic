@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
 import Badge from 'react-bootstrap/Badge';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 import PropTypes from 'prop-types';
 import { addMatchStudent } from '../../actions/match';
 
