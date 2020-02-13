@@ -32,13 +32,13 @@ Some of these are smaller than others. I will be working on this part time.
 
 ### Shorter Term Features:
 
-[] Allow tutors to edit course price without having to remove a course and re-add it
+[X] Allow tutors to edit course price without having to remove a course and re-add it (added feb 13)
 
 [] Sort match results (group results even when not filtered)
 
-[] Clean up code and comments
-
 [] Add autocomplete to adding courses to profile
+
+[] Clean up code and comments
 
 [] Get help with ui/ux and overall design (I am definitely not a designer)
 
@@ -68,7 +68,7 @@ Some of these are smaller than others. I will be working on this part time.
 
 ## Development:
 
-If you would like to try this out, or perhaps set it up for your own school, clone the repo first.
+If you would like to try editing Tutoro, or perhaps set it up for your own school, clone the repo first.
 
 For development you want to make a few changes:
 
