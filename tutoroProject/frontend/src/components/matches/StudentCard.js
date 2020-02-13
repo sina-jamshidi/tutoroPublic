@@ -3,15 +3,16 @@ import { connect } from 'react-redux';
 import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
 import Badge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
 import PropTypes from 'prop-types';
 import { addMatchTutor } from '../../actions/match';
 
-// TODO: put same student looking for multiple courses on same card?
-export class StudentCard extends Component {
+// TODO: put same tutor looking for multiple courses on same card?
+export class TutorCard extends Component {
     static propTypes = {
         match: PropTypes.object.isRequired,
-        studentItem: PropTypes.object.isRequired,
-        courseItem: PropTypes.object.isRequired,
+        studentItem: PropTypes.object,
+        courseItem: PropTypes.object,
         addMatchTutor: PropTypes.func.isRequired,
     };
 
@@ -26,7 +27,7 @@ export class StudentCard extends Component {
             // used for when get email button is clicked
             if (this.props.match.emails.length > 0) {
                 for (let i = 0; i < this.props.match.emails.length; i++) {
-                    if (this.props.match.emails[i].match_id === this.props.studentItem.id) {
+                    if (this.props.match.emails[i].match_id === this.props.tutorItem.user.id) {
                         this.setState({
                             loadingEmail: false,
                             email: this.props.match.emails[i].email
@@ -47,16 +48,17 @@ export class StudentCard extends Component {
             <span className="sr-only">Loading...</span>
           </Spinner>);
         } else {
-            const { id, first_name } = this.props.studentItem;
+            const { id, first_name } = this.props.studentItem.user;
+            const price = this.props.studentItem.price;
             const match_id = id;
             const {course_id, course_num, course_dept, course_title} = this.props.courseItem;
             const courseName = `${course_dept} ${course_num}: ${course_title}`;
             let email;
 
             if(!this.state.email) {
-                // email = <button onClick={this.getEmail.bind(this, match_id, course_id)}>
-                // Get Email</button>;
-                email = <a onClick={this.getEmail.bind(this, match_id, course_id)}>Get Email</a>;
+                email = <Button variant="light" size="sm" 
+                    onClick={this.getEmail.bind(this, match_id, course_id)}>
+                Get Email</Button>;
             } else if (!this.state.email && this.loadingEmail) {
                 email = <Spinner animation="border" role="status">
                 <span className="sr-only">Loading...</span></Spinner>;
@@ -91,10 +93,10 @@ const mapStateToProps = (state, ownProps) => {
         }
     }
     return {
-        studentItem: studentItem.user,
+        studentItem: studentItem,
         courseItem: courseItem,
         match: state.match
     }
 }
 
-export default connect(mapStateToProps, { addMatchTutor })(StudentCard);
+export default connect(mapStateToProps, { addMatchStudent })(StudentCard);
