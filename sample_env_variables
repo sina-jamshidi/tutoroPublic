@@ -1,0 +1,5 @@
+export SECRET_KEY='somesecretkey'
+export DATABASE_NAME='database'
+export DATABASE_USER='admin'
+export DATABASE_PASSWORD='password'
+export TUTORO_DEBUG='True'

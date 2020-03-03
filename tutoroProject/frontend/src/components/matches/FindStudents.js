@@ -112,7 +112,7 @@ export class FindStudents extends Component {
             const filteredStudents = this.props.students.filter(studentObj => (
                 this.state.selectedFilters.includes(studentObj.course) ||
                 this.state.selectedFilters.length === 0
-            ))            
+            ));
             return (
                 <Fragment>
                     <Container>
@@ -129,9 +129,9 @@ export class FindStudents extends Component {
                             options={this.state.filters}
                             />
                             {filteredStudents.map((studentObj, index, array) => (
-                            <Row key={index} className="my-2">
-                            <StudentCard student_index={index} course_id={studentObj.course} />
-                            </Row>
+                                <Row key={index} className="my-2">
+                                <StudentCard student_index={index} course_id={studentObj.course} />
+                                </Row>
                             ))}
                         </Col>
                     </Container>

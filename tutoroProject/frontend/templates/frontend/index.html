@@ -23,6 +23,17 @@
 </head>
 <body>
     <div id="app"></div>
+    <!-- Start of Survicate (www.survicate.com) code -->
+    <script type="text/javascript">
+    (function (w) {
+        var s = document.createElement('script');
+        s.src = '//survey.survicate.com/workspaces/7dff291976eb8d7e57503caa4f0e5f98/web_surveys.js';
+        s.async = true;
+        var e = document.getElementsByTagName('script')[0];
+        e.parentNode.insertBefore(s, e);
+    })(window);
+    </script>
+    <!-- End of Survicate code -->
     {% load static %}
     <script src="{% static "frontend/main.js" %}"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

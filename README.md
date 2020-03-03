@@ -34,7 +34,7 @@ Some of these are smaller than others. I will be working on this part time.
 
 [X] Allow tutors to edit course price without having to remove a course and re-add it (added feb 13)
 
-[] Sort match results (group results even when not filtered)
+[] Sort match results? (currently tutors sorted by price)
 
 [] Add autocomplete to adding courses to profile
 
@@ -83,3 +83,5 @@ For development you want to make a few changes:
 - Finally! You're ready! I recommend having two terminals open. One will run your django server from the folder `tutoroProject/tutoroProject` by running `python manage.py runserver`
 - From the other terminal you will run from the root directory: `npm run dev`
 - The site should be open on `localhost:8000`!
+
+- Note: I have included a `sample_env_variables` file that can do the above for you if you just set the required variables.
