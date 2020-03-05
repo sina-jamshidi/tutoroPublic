@@ -42,7 +42,7 @@ export class TutorList extends Component {
           price:this.props.profile.tutor[i].price});
       }
       
-      const filteredCourses = [];
+      let filteredCourses = [];
       for (let i=0;i<this.props.courses.length;i++) {
         if (ids.includes(this.props.courses[i].course_id)){
           const priceItems = prices.find(priceItem => {
@@ -50,6 +50,22 @@ export class TutorList extends Component {
           filteredCourses.push({course:this.props.courses[i], price:priceItems.price});
         }
       }
+
+      filteredCourses.sort((a, b) => {
+        if(a.course.course_dept.toLowerCase() < b.course.course_dept.toLowerCase()) {
+            return -1;
+        }
+        if(a.course.course_dept.toLowerCase() > b.course.course_dept.toLowerCase()) {
+            return 1;
+        }
+        if(parseInt(a.course.course_num) < parseInt(b.course.course_num)) {
+            return -1;
+        }
+        if(parseInt(a.course.course_num) > parseInt(b.course.course_num)) {
+            return 1;
+        }
+        return 0;
+      })
 
       this.setState({
         tutorCourseIds: ids,
@@ -153,7 +169,12 @@ export class TutorList extends Component {
     // edit tutor price functions //
     _handleFocusOut(course_id, price) {
         try {
+            let curr_price = parseFloat(this.state.tutorCoursePrices.find(priceItem => {
+                return (priceItem.id === course_id);}).price);
             let new_price = parseFloat(price);
+            if (curr_price === new_price) {
+                return;
+            }
             if(!new_price || new_price < 0 || new_price > 999) {
                 this.props.createMessage({ invalidPrice: "Changes not saved. Invalid price." });
                 return;
@@ -245,7 +266,7 @@ export class TutorList extends Component {
                         inputClassName='priceInputClass'
                         inputWidth='200px'
                         inputHeight='25px'
-                        inputMaxLength='6'
+                        inputMaxLength={6}
                         labelFontWeight='regular'
                         inputFontWeight='bold'
                         onFocus={this._handleFocus}
