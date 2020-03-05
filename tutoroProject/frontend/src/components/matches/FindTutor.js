@@ -108,7 +108,7 @@ export class FindTutor extends Component {
                 </Fragment>
             );
         } else {
-            const filteredTutors = this.props.tutors.filter(tutorObj => (
+            let filteredTutors = this.props.tutors.filter(tutorObj => (
                 this.state.selectedFilters.includes(tutorObj.course) ||
                 this.state.selectedFilters.length === 0
             ));
@@ -127,10 +127,7 @@ export class FindTutor extends Component {
                             isMulti
                             options={this.state.filters}
                             />
-                            {/* first sort the list by price, then display */}
-                            {filteredTutors.sort((a, b) => 
-                                parseFloat(a.price) - parseFloat(b.price))
-                            .map((tutorObj, index, array) => (
+                            {filteredTutors.map((tutorObj, index, array) => (
                                 <Row key={index} className="my-2">
                                 <TutorCard tutor_index={index} course_id={tutorObj.course} />
                                 </Row>

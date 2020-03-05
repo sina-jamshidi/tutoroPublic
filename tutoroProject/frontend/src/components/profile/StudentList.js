@@ -35,12 +35,28 @@ export class StudentList extends Component {
         ids.push(this.props.profile.student[i].course);
       }
       
-      const filteredCourses = [];
+      let filteredCourses = [];
       for (let i=0;i<this.props.courses.length;i++) {
         if (ids.includes(this.props.courses[i].course_id)){
           filteredCourses.push(this.props.courses[i]);
         }
       }
+
+      filteredCourses.sort((a, b) => {
+        if(a.course_dept.toLowerCase() < b.course_dept.toLowerCase()) {
+            return -1;
+        }
+        if(a.course_dept.toLowerCase() > b.course_dept.toLowerCase()) {
+            return 1;
+        }
+        if(parseInt(a.course_num) < parseInt(b.course_num)) {
+            return -1;
+        }
+        if(parseInt(a.course_num) > parseInt(b.course_num)) {
+            return 1;
+        }
+        return 0;
+      })
 
       this.setState({
         ...this.state,

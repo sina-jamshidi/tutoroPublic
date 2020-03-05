@@ -1,0 +1,1308 @@
+course_dept,course_id,course_title,course_num
+ACMA,0,Job Practicum I,336
+ACMA,1,Job Practicum II,337
+ACMA,2,Job Practicum III,436
+ACMA,3,Job Practicum IV,437
+ACMA,4,Job Practicum V,438
+ALS,5,Real Property II,612
+ALS,6,Personal Planning,615
+APMA,7,PhD Oral Candidacy Exam,995
+ARAB,8,Introduction to Arabic I,100
+ARCH,9,Ancient Peoples and Places,100
+ARCH,10,Human Origins,131
+ARCH,11,Reconstructing the Human Past,201
+ARCH,12,"The Prehistory of Religion: Shamans, Sorcerers and Saints",226
+ARCH,13,Ancient Visual Art,301
+ARCH,14,Special Topics in Biological Anthropology II,323
+ARCH,15,Select Regions in World Archaeology II,331
+ARCH,16,Historical Ecology & Coastal Archaeology,431
+ARCH,17,Background to Field Work,433
+ARCH,18,Archaeological Field Methods,434
+ARCH,19,Biological Anthropology Field Practicum,436
+ARCH,20,Directed Study in Heritage Resource Management,591
+ARCH,21,PhD Prospectus & Colloquium,874
+ARCH,22,PhD Comprehensive Examination,875
+ARCH,23,Special Topics,895
+ARCH,24,MA Thesis,898
+ARCH,25,PhD Thesis,899
+BISC,26,General Biology,101
+BISC,27,General Biology,102
+BISC,28,Biology in Everyday Life,113
+BISC,29,Genetics,202
+BISC,30,Introduction to Undergraduate Research in Biological Sciences,298
+BISC,31,Evolution,300
+BISC,32,Microbiology,303
+BISC,33,Animal Physiology,305
+BISC,34,Vertebrate Biology,316
+BISC,35,Practicum I,341
+BISC,36,Practicum II,342
+BISC,37,Practicum III,443
+BISC,38,Practicum IV,444
+BISC,39,Practicum V,446
+BISC,40,"Special Topics in Ecology, Evolution and Conservation",473
+BISC,41,Research Design,490
+BISC,42,Research Technique,491
+BISC,43,Research Reporting,492W
+BISC,44,Undergraduate Research: Writing Intensive,497W
+BISC,45,Undergraduate Research I,498
+BISC,46,Undergraduate Research II,499
+BISC,47,"Agriculture, Horticulture and Urban Pest Management",601
+BISC,48,Forest Pest Management,602
+BISC,49,Master of Environmental Toxicology Project,656
+BISC,50,Co-op I,657
+BISC,51,Co-op II,658
+BISC,52,Master of Pest Management Thesis,849
+BISC,53,Directed Readings in Biology,888
+BISC,54,Directed Readings in Biology,889
+BISC,55,Directed Readings in Biology,890
+BISC,56,PhD Graduate Candidacy Exam,892
+BISC,57,MSc Thesis,898
+BISC,58,PhD Thesis,899
+BPK,59,Fundamentals of Human Structure and Function,105
+BPK,60,Human Nutrition: Current Issues,110
+BPK,61,Contemporary Health Issues,140
+BPK,62,Theory of Exercise Program Design,141
+BPK,63,Introduction to Biomedical Physiology and Kinesiology,142
+BPK,64,Sports Injuries - Prevention and Rehabilitation,241
+BPK,65,Kinanthropometry,303
+BPK,66,Inquiry and Measurement in Biomedical Physiology and Kinesiology,304W
+BPK,67,Exercise/Work Physiology,310
+BPK,68,Applied Human Nutrition,311
+BPK,69,Basic Human Anatomy,325
+BPK,70,Functional Anatomy,326
+BPK,71,Active Health: Behavior and Promotion,340
+BPK,72,Active Health: Assessment and Programming,343
+BPK,73,Practicum I,351
+BPK,74,Practicum II,352
+BPK,75,Human Growth and Development,375
+BPK,76,Human Physiology Laboratory,407
+BPK,77,Integrative Cancer Biology,431
+BPK,78,Practicum III,451
+BPK,79,Practicum III,451W
+BPK,80,Practicum IV,452
+BPK,81,Practicum V,453
+BPK,82,Behavioural Neuroscience Undergraduate Honours Thesis Proposal,457
+BPK,83,Behavioural Neuroscience Undergraduate Honours Thesis,459
+BPK,84,Musculoskeletal Disorders,481
+BPK,85,Undergraduate Honours Thesis Proposal,491
+BPK,86,Undergraduate Honours Research Performance,495
+BPK,87,Directed Study Literature,496
+BPK,88,Directed Study Experiential,498
+BPK,89,Undergraduate Honours Thesis Reporting,499
+BPK,90,Directed Studies,805
+BPK,91,MSc Proposal,895
+BPK,92,PhD Comprehensive Examination,896
+BPK,93,PhD Seminar,897
+BPK,94,MSc Thesis,898
+BPK,95,PhD Thesis,899
+BUS,96,Business Fundamentals,200
+BUS,97,Foundations for Collaborative Work Environments,202
+BUS,98,Managerial Economics,207
+BUS,99,Critical Thinking in Business,217W
+BUS,100,Personal Finance,221
+BUS,101,Data and Decisions I,232
+BUS,102,Introduction to Business Law and Ethics,233
+BUS,103,Introduction to Business Technology Management,237
+BUS,104,Introduction to Entrepreneurship and Innovation,238
+BUS,105,Financial Accounting I,251
+BUS,106,Managerial Accounting I,254
+BUS,107,Behaviour in Organizations,272
+BUS,108,"Business, Society and Ethics",303
+BUS,109,Introduction to Managerial Accounting and Financial Management,311
+BUS,110,Introduction to Finance,312
+BUS,111,Investments,315
+BUS,112,Derivative Securities,316
+BUS,113,Financial Accounting:  Assets,320
+BUS,114,Financial Accounting: Equities,321
+BUS,115,Intermediate Managerial Accounting,322
+BUS,116,Income Taxation for Individuals,330
+BUS,117,Corporate Taxation,331
+BUS,118,Data and Decisions II,336
+BUS,119,Foundations of Innovation,338
+BUS,120,International Business Strategy,340
+BUS,121,Fundamentals of Marketing,341
+BUS,122,Introduction to Marketing,343
+BUS,123,Marketing Research,345
+BUS,124,Global Business Environment,346
+BUS,125,Consumer Behaviour,347
+BUS,126,Business Communication,360W
+BUS,127,Project Management,361
+BUS,128,Business Process Analysis,362
+BUS,129,Organization Theory,374
+BUS,130,Introduction to Human Resource Management,381
+BUS,131,Commercial Law,393
+BUS,132,Developing Organizational Opportunities,401
+BUS,133,Technology Entrepreneurship II,405
+BUS,134,Startup Accelerator,406
+BUS,135,Financial Institutions,410
+BUS,136,Corporate Finance,413
+BUS,137,Security Analysis,417
+BUS,138,International Financial Management,418
+BUS,139,Advanced Derivative Securities,419
+BUS,140,Advanced Accounting,420
+BUS,141,Accounting Theory,421
+BUS,142,Advanced Managerial Accounting,424
+BUS,143,Auditing and Assurance: Concepts and Methods,426
+BUS,144,Cross-Cultural Management,430
+BUS,145,Foreign Market Entry,434
+BUS,146,Decision Analysis in Business,437
+BUS,147,Customer Analytics,445
+BUS,148,Ethical Issues in Marketing,449
+BUS,149,Sustainable Innovation,453
+BUS,150,Business Analytics,462
+BUS,151,Business Data Management,464
+BUS,152,Web-Enabled Business,466
+BUS,153,Managing Information Technology for Business Value,468
+BUS,154,Operations Management,473
+BUS,155,Supply Chain Management,474
+BUS,156,"Business of Design IV - Promotion, Packaging and Launch - Launching a Design-Led Business",476
+BUS,157,Startup Experience,477
+BUS,158,Strategy,478
+BUS,159,Strategy Analysis Practicum,479
+BUS,160,Recruitment and Selection,481
+BUS,161,Negotiations and Conflict Management,485
+BUS,162,Selected Topics in Business Administration,492
+BUS,163,Selected Topics in Business Administration,493
+BUS,164,Selected Topics in Business Administration,494
+BUS,165,Selected Topics in Business Administration,495
+BUS,166,STT-International Corporate Finance: A China Focus,497
+BUS,167,Directed Studies,498
+BUS,168,Financial and Managerial Accounting,510
+BUS,169,Business Ethics,511
+BUS,170,Managerial Economics,552
+BUS,171,Business Analytics,553
+BUS,172,Managerial Finance,555
+BUS,173,Managing People and Organizations,557
+BUS,174,Special Topics,561
+BUS,175,Project Management,570
+BUS,176,Marketing,615
+BUS,177,Information Technology and Organizational Transformation,621
+BUS,178,Operations Management,632
+BUS,179,Topics in Sustainability,633
+BUS,180,International Competitive Strategy,642
+BUS,181,Applied Project,696
+BUS,182,Entrepreneurship,714
+BUS,183,Operations Management,715
+BUS,184,Sustainability,716
+BUS,185,Business Strategy,718
+BUS,186,Special Topics in Business Administration,720
+BUS,187,International Applied Project,725
+BUS,188,MBA Internship,727
+BUS,189,Capstone Simulation,729
+BUS,190,Business and Indigenous Communities,730
+BUS,191,Negotiations,733
+BUS,192,Operations Management,738
+BUS,193,Managing Information,739
+BUS,194,Managing Across Cultures,740
+BUS,195,Business and Indigenous Peoples,741
+BUS,196,Topics in International Business,755
+BUS,197,Business Operations Design,758
+BUS,198,Capstone Simulation,782
+BUS,199,Entrepreneurship,783
+BUS,200,Special Topics,784
+BUS,201,Leadership and Managing Teams,794
+BUS,202,Financing the New Venture,795
+BUS,203,Business Plan II,797
+BUS,204,Financial Economics II,805
+BUS,205,Strategic Asset Allocation,816
+BUS,206,Financial Statement Analysis,825
+BUS,207,Foundations of Business Systems and Data,830
+BUS,208,Analyzing and Visualizing Accounting Data,831
+BUS,209,Data Analytics for Auditing Practice,832
+BUS,210,"Collaboration, Teaming, and Agile Methods",838
+BUS,211,Data Mining and Business Intelligence,840
+BUS,212,Predictive Analytics for Accounting,841
+BUS,213,Advanced Analytical Auditing,842
+BUS,214,Fraudulent Financial Reporting,844
+BUS,215,Numerical Methods,857
+BUS,216,Credit Risk Management,864
+BUS,217,Student Investment Advisory Service Practicum,880
+CA,218,Music Fundamentals,104
+CA,219,Introduction to Cinema,135
+CA,220,Music after 1900,140
+CA,221,21st Century Music Appreciation,142
+CA,222,Methods and Concepts: Selected Topics,269
+CA,223,Interdisciplinary Studio - Composition/Collaboration,285
+CA,224,Explorations in Contemporary Arts I,305
+CA,225,Internship in Contemporary Arts I,306
+CA,226,Contemporary Arts Field School I (Theory/History),308
+CA,227,Contemporary Arts Field School II (Studio),309
+CA,228,Methods and Concepts: Selected Topics,369
+CA,229,Film Music: An Overview of the Relationship between Music and Moving Pictures,386
+CA,230,Directed Studies (Studio),400
+CA,231,Directed Studies (Theory/History),401
+CA,232,Explorations in Contemporary Arts II,405
+CA,233,Internship in Contemporary Arts II,406
+CA,234,Contemporary Arts Field School III (Theory/History),408
+CA,235,Contemporary Arts Field School IV (Studio),409
+CA,236,Advanced Seminar in Art and Culture Studies,412W
+CA,237,Contemporary Dance VIII: Choreography Lab,421
+CA,238,Interdisciplinary Project in Contemporary Arts,489
+CA,239,Practicum in Contemporary Arts,827
+CA,240,Extended Essays in Contemporary Arts,829
+CA,241,Selected Topics in Fine and Performing Arts,877
+CA,242,Directed Study in Fine and Performing Arts,889
+CA,243,Master of Fine Arts Graduating Project,898
+CHEM,244,Introductory Chemistry,110
+CHEM,245,General Chemistry I,120
+CHEM,246,General Chemistry and Laboratory I,121
+CHEM,247,General Chemistry II,122
+CHEM,248,General Chemistry Laboratory II,126
+CHEM,249,Introduction to Analytical Chemistry,215
+CHEM,250,Inorganic Chemistry,230
+CHEM,251,Inorganic Chemistry Laboratory,236W
+CHEM,252,Organic Chemistry I,281
+CHEM,253,Organic Chemistry II,282
+CHEM,254,Organic Chemistry IIb,283
+CHEM,255,Organic Chemistry IIb,284
+CHEM,256,Organic Chemistry Laboratory II,286
+CHEM,257,Practicum I,306
+CHEM,258,Practicum II,307
+CHEM,259,Chemical and Instrumental Methods of Identification of Organic Compounds,380
+CHEM,260,Practicum III,406
+CHEM,261,Practicum IV,407
+CHEM,262,Practicum V,408
+CHEM,263,Undergraduate Research,481
+CHEM,264,Directed Study in Advanced Topics of Chemistry,482
+CHEM,265,Undergraduate Research II,483
+CHEM,266,Two-Semester Undergraduate Research in Chemistry,484
+CHEM,267,MSc Thesis,898
+CHEM,268,PhD Thesis,899
+CHIN,269,Mandarin Chinese I,100
+CHIN,270,STT - Introduction to Mandarin Chinese and Society II,112
+CMNS,271,Introduction to Communication Studies,110
+CMNS,272,Communication and Social Change,130
+CMNS,273,Empirical Communication Research Methods,201W
+CMNS,274,Design and Method in Qualitative Communication Research,202
+CMNS,275,Media and Popular Cultures,221
+CMNS,276,Advertising as Social Communication,223W
+CMNS,277,The Political Economy of Communication,240
+CMNS,278,Introduction to Information Technology: The New Media,253W
+CMNS,279,Communication in Everyday Life,304W
+CMNS,280,Cultural Production of Popular Music,321
+CMNS,281,Cultural Dimensions in Advertising,323W
+CMNS,282,"Environment, Media and Communication",349
+CMNS,283,Topics in Technology and Society,353
+CMNS,284,Technologies of Gender and Sexuality,355
+CMNS,285,Evaluation Methods for Applied Communication Research,362
+CMNS,286,Communication Practicum I,395
+CMNS,287,Communication Practicum II,396
+CMNS,288,Communication Network Project Group,408
+CMNS,289,Globalization: Cultural Issues,423
+CMNS,290,Media Analysis Project Group,428
+CMNS,291,Media and Popular Culture in China,445
+CMNS,292,International Communication Project Group,448
+CMNS,293,Race and the Media,452
+CMNS,294,Issues in the Information Society,453
+CMNS,295,Women and New Information Technologies,455W
+CMNS,296,Information Technology Project Group,458
+CMNS,297,Seminar in Dialogue and Public Issues,460
+CMNS,298,Field Placement in Dialogue,461
+CMNS,299,Directed Study,479
+CMNS,300,Directed Study,480
+CMNS,301,Directed Study,481
+CMNS,302,Directed Study,482
+CMNS,303,Directed Study,483
+CMNS,304,Field Placement in Communication,489
+CMNS,305,Communication Practicum III,494
+CMNS,306,Communication Practicum IV,495
+CMNS,307,Communication Practicum V,496
+CMNS,308,Honours Research Proposal,497
+CMNS,309,Honours Research Project,498
+CMNS,310,Communication MA Dual Degree  Year at  CUC,8DD
+CMNS,311,Directed Readings and Research,850
+CMNS,312,Directed Studies,851
+CMNS,313,Selected Topics in Communication Studies,857
+CMNS,314,Graduate Colloquium in Global Communication,860
+CMNS,315,Directed Readings and Research,880
+CMNS,316,Research Practicum,881
+CMNS,317,Research Field Work,882
+CMNS,318,Co-op I,891
+CMNS,319,Co-op II,892
+CMNS,320,MA Project,893
+CMNS,321,MA Extended Essay,894
+CMNS,322,Comprehensive Examination,895
+CMNS,323,MA Extended Essays,896
+CMNS,324,MA Project,897
+CMNS,325,MA Thesis,898
+CMNS,326,PhD Thesis,899
+CMPT,327,Introduction to Computing Science and Programming I,120
+CMPT,328,Introduction to Computing Science and Programming II,125
+CMPT,329,Computing Laboratory,127
+CMPT,330,Introduction to the Internet and the World Wide Web,165
+CMPT,331,Data Structures and Programming,225
+CMPT,332,Introduction to Software Engineering,276
+CMPT,333,Operating Systems I,300
+CMPT,334,Data Structures and Algorithms,307
+CMPT,335,Artificial Intelligence Survey,310
+CMPT,336,Social Implications - Computerized Society,320
+CMPT,337,Computational Data Science,353
+CMPT,338,Database Systems I,354
+CMPT,339,User Interface Design,363
+CMPT,340,Multimedia Systems,365
+CMPT,341,Data Communications and Networking,371
+CMPT,342,Technical Writing and Group Dynamics,376W
+CMPT,343,Principles of Compiler Design,379
+CMPT,344,Comparative Programming Languages,383
+CMPT,345,Special Topics in Theoretical Computing Science,409
+CMPT,346,Special Topics in Artificial Intelligence,419
+CMPT,347,Practicum I,426
+CMPT,348,Practicum II,427
+CMPT,349,Practicum III,428
+CMPT,350,Practicum IV,429
+CMPT,351,Practicum V,430
+CMPT,352,Database Systems II,454
+CMPT,353,Web-based Information Systems,470
+CMPT,354,Networking II,471
+CMPT,355,Requirements Engineering,475
+CMPT,356,Industrial Internship,631
+CMPT,357,Directed Reading,894
+CMPT,358,Master Program Extended Essay,895
+CMPT,359,MSc Course Option Portfolio,896
+CMPT,360,MSc Project,897
+CMPT,361,MSc Thesis,898
+CMPT,362,PhD Thesis,899
+CMPT,363,Special Topics in Artificial Intelligence,983
+COGS,364,Exploring the Mind,100
+COGS,365,Learning in Everyday Life: The Art and Science of Hacking your Brain,110
+CRIM,366,Introduction to Criminology,101
+CRIM,367,Psychological Explanations of Criminal and Deviant Behavior,103
+CRIM,368,Introduction to the Criminal Justice System - A Total System Approach,131
+CRIM,369,Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective,135
+CRIM,370,Research Methods in Criminology,220
+CRIM,371,Criminal Law,230
+CRIM,372,Introduction to Policing,251
+CRIM,373,Current Theories and Perspectives in Criminology,300W
+CRIM,374,"Sex, Work, and the Law",317
+CRIM,375,Quantitative Research Methods in Criminology,320
+CRIM,376,Qualitative Research Methods in Criminology,321
+CRIM,377,Criminal Procedure and Evidence,330
+CRIM,378,Sociology of Law,332
+CRIM,379,Human Rights and Civil Liberties,335
+CRIM,380,Correctional Practice,343
+CRIM,381,The Forensic Sciences,355
+CRIM,382,Directed Readings,370
+CRIM,383,Introduction to Cybercrime,380
+CRIM,384,Biological Explanations of Crime,402
+CRIM,385,Current Issues in Criminology and Criminal Justice,416
+CRIM,386,Community Policing,458
+CRIM,387,Street Gang Patterns and Policies,464
+CRIM,388,Directed Studies,470
+CRIM,389,Professional Development - Criminal Justice Practice,485
+CRIM,390,Field Placement - Agency - Part Time,486
+CRIM,391,Field Placement - Agency - Full Time,487
+CRIM,392,Field Placement - Academic - Part Time,488
+CRIM,393,Field Placement - Academic - Full Time,489
+CRIM,394,Fundamentals of Security Risk Management,720
+CRIM,395,Cybersecurity,742
+CRIM,396,Research Methods V: Advanced Qualitative Methods,864
+CRIM,397,Directed Readings,870
+CRIM,398,Comprehensive Exam,897
+CRIM,399,MA Thesis,898
+CRIM,400,PhD Thesis,899
+DIAL,401,Semester: Dialogue,390W
+DIAL,402,Semester: Seminar,391W
+DIAL,403,Semester: Final Project,392W
+DIAL,404,Seminar in Dialogue and Public Issues,460
+DIAL,405,Field Placement in Dialogue,461
+DMED,406,The Visual Story,501
+DMED,407,Projects III,522
+DMED,408,Special Topics in Digital Media,540
+DMED,409,Directed Studies in Digital Media,550
+EASC,410,Dynamic Earth,101
+EASC,411,The Rise and Fall of the Dinosaurs,103
+EASC,412,Geohazards - Earth in Turmoil,104
+EASC,413,Economic Geological Resources,107
+EASC,414,Field Geology III,308
+EASC,415,Directed Readings,711
+EASC,416,MSc Thesis Proposal,810
+EASC,417,MSc Thesis,898
+EASC,418,PhD Candidacy Examination,910
+EASC,419,PhD Thesis,998
+ECO,420,Ecological Restoration,600
+ECON,421,Principles of Microeconomics,103
+ECON,422,Principles of Macroeconomics,105
+ECON,423,Microeconomic Theory I: Competitive Behavior,201
+ECON,424,Communication in Economics,220W
+ECON,425,Environmental Economics,260
+ECON,426,Selected Topics in Economics,282
+ECON,427,Microeconomic Theory II: Strategic Behavior,302
+ECON,428,Intermediate Macroeconomic Theory,305
+ECON,429,Money and Banking,310
+ECON,430,Industrial Organization,325
+ECON,431,Statistical Analysis of Economic Data,333
+ECON,432,International Trade,342
+ECON,433,International Finance,345
+ECON,434,Economic Development,355W
+ECON,435,Selected Topics in Economics,383
+ECON,436,Public Economics: Role of Government,392
+ECON,437,Directed Studies,398
+ECON,438,Seminar in Economic Development,455W
+ECON,439,Seminar in Environmental Economics,460
+ECON,440,Seminar in Health Economics,470
+ECON,441,Selected Topics in Economics,483
+ECON,442,Selected Topics in Economics,484
+ECON,443,Seminar in Public Economics,492
+ECON,444,Directed Studies,498
+ECON,445,Co-op I,750
+ECON,446,Co-op II,751
+ECON,447,Co-op III,752
+ECON,448,Advanced Monetary Theory,811
+ECON,449,Theories of Economic Development,855
+ECON,450,MA Research Paper,899
+ECON,451,PhD Field Paper,900
+ECON,452,Selected Topics in Economics,911
+ECON,453,Directed Readings,921
+ECON,454,Comprehensive Examination in Microeconomic Theory,985
+ECON,455,Comprehensive Examination in Macroeconomic Theory,986
+ECON,456,Field Comprehensive Examination,987
+ECON,457,PhD Thesis,990
+EDPR,458,Special Topics,503
+EDPR,459,Special Topics,506
+EDPR,460,Special Topics,510
+EDPR,461,Special Topics,516
+EDPR,462,Special Topics,521
+EDPR,463,Special Topics,525
+EDPR,464,Special Topics,526
+EDPR,465,Special Topics,527
+EDPR,466,Special Topics,528
+EDPR,467,Special Topics,533
+EDPR,468,Special Topics,535
+EDPR,469,Special Topics,536
+EDPR,470,Advanced Field Studies in Educational Practice I,561
+EDPR,471,Advanced Field Studies in Educational Practice I,562
+EDPR,472,Advanced Field Studies in Educational Practice I,563
+EDPR,473,Advanced Field Studies in Collaborative Inquiry I,581
+EDPR,474,Advanced Field Studies in Collaborative Inquiry I,582
+EDPR,475,Advanced Field Studies in Collaborative Inquiry I,583
+EDPR,476,Advanced Field Studies in Collaborative Inquiry I,584
+EDPR,477,Advanced Field Studies in Collaborative Inquiry I,585
+EDPR,478,Advanced Field Studies in Collaborative Inquiry I,586
+EDPR,479,Études de terrain avancées en approche par l'enquête collaborative I,588
+EDPR,480,Advanced Field Studies in Collaborative Inquiry II,592
+EDUC,481,Selected Questions and Issues in Education,100W
+EDUC,482,Foundations of Personal Agency: Finding Voice and Place in Academia,199
+EDUC,483,Mathematical Experience II: Shape and Space,212
+EDUC,484,Introduction to Educational Psychology,220
+EDUC,485,Introduction to Philosophy of Education,230
+EDUC,486,Studies in the History of Education in the Western World,250
+EDUC,487,Introduction to Reflective Practice,252
+EDUC,488,"Foundations in Aboriginal Education, Language, and Culture",311
+EDUC,489,Numeracy and Society,313
+EDUC,490,Individual and Developmental Differences in Language Acquisition,315
+EDUC,491,The Social Lives of School Children,322
+EDUC,492,Introduction to Counselling Theories,323
+EDUC,493,Foundations of Multicultural Counselling,324
+EDUC,494,Assessment for Classroom Teaching,325
+EDUC,495,Creating Positive Learning Communities,326
+EDUC,496,Career Education and Career Counselling,328
+EDUC,497,Movement Language Elements for Dance in Education,330
+EDUC,498,"Literacy, Education and Culture",341
+EDUC,499,Building on Reflective Practice,352W
+EDUC,500,Introduction to Outdoor Education,359
+EDUC,501,International and Intercultural Education,370
+EDUC,502,School Health Education,371W
+EDUC,503,Struggle with Mathematics: Sources and Recovery,375
+EDUC,504,Introduction to Educational Leadership,376
+EDUC,505,"Diversity in Education: Theories, Policies, Practices",382
+EDUC,506,Special Topics,383
+EDUC,507,Special Topics,391
+EDUC,508,Introduction to Classroom Teaching,401W
+EDUC,509,Coursework Semester,404
+EDUC,510,Investigations in Mathematics for Secondary Teachers,411
+EDUC,511,Designs for Learning: Secondary Language Arts,412W
+EDUC,512,Designs for Learning: Secondary Social Studies,414
+EDUC,513,Designs for Learning: Secondary Mathematics,415
+EDUC,514,Designs for Learning: Secondary Science,416
+EDUC,515,Learning Disabilities,422
+EDUC,516,Helping Relationships,423
+EDUC,517,Learning Disabilities: Laboratory,424
+EDUC,518,Teaching Children and Youth with Special Needs,426
+EDUC,519,Nature and Nurture of Gifted Students,428W
+EDUC,520,Designs for Learning: Dance,430
+EDUC,521,Ethical Issues in Education,437
+EDUC,522,"Teaching about Justice, Law and Citizenship",448
+EDUC,523,Environmental Education,452
+EDUC,524,Quantitative Approaches to Environmental Education,454
+EDUC,525,Drama and Education,457
+EDUC,526,Instructional Activities in Physical Education,459
+EDUC,527,Early Childhood Education,464
+EDUC,528,Children's Literature,465
+EDUC,529,Early Childhood Education: Curriculum and Instruction,466
+EDUC,530,Curriculum and Instruction in Teaching English as an Additional Language,467
+EDUC,531,Curriculum Development: Theory and Practice,471
+EDUC,532,Designs for Learning: Elementary Language Arts,472
+EDUC,533,Designs for Learning: Reading,473W
+EDUC,534,Designs for Learning: Elementary Social Studies,474
+EDUC,535,Designs for Learning: Elementary Mathematics,475
+EDUC,536,Designs for Learning: Elementary Science,476
+EDUC,537,Designs for Learning: Art,477
+EDUC,538,Designs for Learning: Music,478
+EDUC,539,Designs for Learning: French as a Second Language,480
+EDUC,540,Designs for Learning: French Immersion Programs and Francophone Schools,481
+EDUC,541,Designs for Learning: Information Technology,482
+EDUC,542,Directed Readings,702
+EDUC,543,Directed Readings,703
+EDUC,544,Directed Readings,704
+EDUC,545,Directed Readings,705
+EDUC,546,Landscapes of Practitioner Inquiry,718
+EDUC,547,Issues in Pre-Service Teacher Education,740
+EDUC,548,Selected Problems in Higher Education,806
+EDUC,549,Methods of Inquiry in Educational Psychology,810
+EDUC,550,Fieldwork I,811
+EDUC,551,Organizational Theory and Analyses,813
+EDUC,552,Developing Educational Programs and Practices for Diverse Educational Settings,816
+EDUC,553,Policy Processes,817
+EDUC,554,Current Issues in Curriculum and Pedagogy,820
+EDUC,555,Evaluation of Educational Programs,822
+EDUC,556,Implementation of Educational Programs,830
+EDUC,557,Learning Mathematics with Computers,845
+EDUC,558,Study of Learning Environments,861
+EDUC,559,Research Designs in Education,864
+EDUC,560,Advanced Qualitative Research in Education,867
+EDUC,561,Music Education as Thinking in Sound,869
+EDUC,562,Family Counselling,871
+EDUC,563,Career Counselling,873
+EDUC,564,Contemporary School Counselling,877
+EDUC,565,Group Counselling,878
+EDUC,566,Lev Vygotsky's Theories in Education,879
+EDUC,567,Project,881
+EDUC,568,MEd Comprehensive Examination,883
+EDUC,569,MEd Extended Essays,885
+EDUC,570,MA Thesis,886
+EDUC,571,Learning Design in Technology-Mediated Environments,891
+EDUC,572,Master's Thesis,898
+EDUC,573,Doctoral Thesis,899
+EDUC,574,Fieldwork III,904
+EDUC,575,Directed Readings,910
+EDUC,576,Critical and Sociocultural Approaches to Educational Research,923
+EDUC,577,Doctoral Seminar B,928
+EDUC,578,Learning Design Development Workshop,934
+EDUC,579,Learning Design Demonstration of Mastery,935
+EDUC,580,Doctoral Comprehensive Examination,983
+EDUC,581,Qualifying Examination,984
+ENGL,582,Literature Now,112W
+ENGL,583,Language and Purpose,114W
+ENGL,584,Writing to Persuade,199W
+ENGL,585,Early Modern Literature,203
+ENGL,586,Restoration and Eighteenth Century Literature,205
+ENGL,587,Nineteenth Century Literatures in English,206
+ENGL,588,Creative Reading,272
+ENGL,589,Early Shakespeare,311
+ENGL,590,Studies in Canadian Literature before 1920,354
+ENGL,591,Popular Writing by Indigenous Authors,360
+ENGL,592,Special Studies,376
+ENGL,593,Field School I,377
+ENGL,594,Field School II,378
+ENGL,595,Major Authors for Non-Majors,398
+ENGL,596,Topics in Early English Drama,407W
+ENGL,597,Topics in the Romantic Period,427W
+ENGL,598,Directed Studies A,441
+ENGL,599,Directed Studies B,442
+ENGL,600,"Topics in Media, Culture and Performance",484W
+ENGL,601,"Topics in Gender, Sexuality and Literature",486W
+ENGL,602,Honors Graduating Essay,496
+ENGL,603,Studies in Eighteenth-Century Literature,832
+ENGL,604,Studies in Nineteenth-Century Literature,833
+ENGL,605,Studies in Twentieth-Century Literature,834
+ENGL,606,Pro-seminar I,880
+ENSC,607,Optional Job Practicum,194
+ENSC,608,Industrial Internship I,195
+ENSC,609,Special Internship I,196
+ENSC,610,Electric Circuits I,220
+ENSC,611,Microelectronics I,225
+ENSC,612,Software Design and Analysis for Engineers,251
+ENSC,613,Fundamentals of Digital Logic & Design,252
+ENSC,614,Introduction to Computer Organization,254
+ENSC,615,Engineering Measurement and Data Analysis,280
+ENSC,616,Industrial Internship II,295
+ENSC,617,Special Internship II,296
+ENSC,618,Electric Circuits II,320
+ENSC,619,Industrial Internship III,395
+ENSC,620,Special Internship III,396
+ENSC,621,Directed Studies in Engineering Science,400
+ENSC,622,Directed Studies in Engineering Science,402
+ENSC,623,"Capstone A: Project Design, Management, and Documentation",405W
+ENSC,624,"Engineering Ethics, Law, and Professional Practice",406
+ENSC,625,Electronic System Design,425
+ENSC,626,High Frequency Electronics,426
+ENSC,627,Digital Signal Processing,429
+ENSC,628,Capstone B: Engineering Design Project,440
+ENSC,629,Optical and Laser Engineering Applications,470
+ENSC,630,Biophotonics and Microscopy Techniques,476
+ENSC,631,Introduction to Decision Making in Engineering,482
+ENSC,632,Special Project Laboratory,491
+ENSC,633,Special Project Laboratory,492
+ENSC,634,Special Project Laboratory,493
+ENSC,635,Special Project Laboratory,494
+ENSC,636,Engineering Science Thesis Proposal,498
+ENSC,637,Engineering Science Undergraduate Thesis,499
+ENSC,638,Graduate Co-op I,701
+ENSC,639,Graduate Co-op II,702
+ENSC,640,Graduate Co-op III,703
+ENSC,641,Industrial Internship,704
+ENSC,642,Writing for Publication,803
+ENSC,643,Engineering Management for Development Projects,820
+ENSC,644,Advanced Multimedia Compression,861
+ENSC,645,MEng Course Option Portfolio,870
+ENSC,646,PhD Qualifying Examination,880
+ENSC,647,Directed Studies I,891
+ENSC,648,Directed Studies II,892
+ENSC,649,Special Topics I,893
+ENSC,650,Special Topics II,894
+ENSC,651,Special Topics III,895
+ENSC,652,MEng Project (Completion),896
+ENSC,653,MEng Project,897
+ENSC,654,MASc Thesis,898
+ENSC,655,PhD Thesis,899
+ENV,656,Environment Practicum I,302
+ENV,657,Environment Practicum II,303
+ENV,658,Ethics and the Environment,320W
+ENV,659,Environment Practicum III,402
+ENV,660,Environment Practicum IV,403
+ENV,661,Environment Practicum V,404
+EVSC,662,Introduction to Environmental Science,100
+EVSC,663,Practicum I,380
+EVSC,664,Practicum II,381
+EVSC,665,Directed Study in Environmental Science,391
+EVSC,666,Practicum III,480
+EVSC,667,Practicum IV,481
+EVSC,668,Practicum V,482
+EVSC,669,Environmental Science Thesis,490W
+EVSC,670,Directed Study in Environmental Science,491
+FAL,671,Foundations of Academic Literacy,X99
+FAN,672,Foundations of Analytical and Quantitative Reasoning,X99
+FASS,673,STT-Writing Right: Strategies for Effective Revision,200
+FASS,674,FASS Co-op Practicum I,201
+FASS,675,STT-Social Media for Work and Play,202
+FASS,676,STT-The Art of Debate: Constructive Adversarialism in Theory and Practice,203
+FASS,677,STT-Communicating in Conflict and Negotiation: An Introduction to the Essential Skills,204
+FASS,678,STT-Finding Voice: Public Speaking for Social Change,205
+FASS,679,STT-Creating Effective Teams,206
+FASS,680,"STT-Cultural Humility: Understanding Diversity, Equity, and Inclusion",207
+FASS,681,STT-Introduction to Personal Financial Planning for Students,208
+FASS,682,STT-Write-minded: Writing with a Public Audience in Mind,209
+FASS,683,FASS Co-op Practicum II,301
+FASS,684,FASS Co-op Practicum III,302
+FASS,685,FASS Co-op Practicum IV,401
+FASS,686,FASS Co-op Practicum V,402
+FEP,687,Exchange Study I - Not included in GPA,200
+FEP,688,Exchange Study - No GPA,201
+FEP,689,Exchange Study - No GPA,202
+FEP,690,Exchange Study - Not included in GPA,203
+FEP,691,Exchange Study Summer - No GPA,204
+FEP,692,Exchange Study I - Not Included in GPA,205
+FEP,693,Exchange Study I - No GPA,206
+FEP,694,Exchange Study - No GPA,209
+FEP,695,FEP Formal Exchange Program - Not Included in GPA,221
+FEP,696,FEP Formal Exchange Program - Not Included in GPA,222
+FEP,697,FEP Formal Exchange Program - Not Included in GPA,224
+FEP,698,FEP Formal Exchange Program - Not Included in GPA,225
+FNLG,699,Advanced Grammar of a First Nations Language,300
+FNST,700,Introduction to First Nations Studies,101
+FNST,701,Canadian Aboriginal Peoples' Perspectives on History,201W
+FNST,702,Selected Topics in First Nations Studies,222
+FNST,703,Special Topics in First Nations Studies,322
+FNST,704,Ethnobotany of British Columbia First Nations,332
+FNST,705,Directed Readings in First Nations Studies,442
+FNST,706,Directed Studies in First Nations Studies,447
+FREN,707,French for Beginners,120
+FREN,708,Introductory French I,121
+FREN,709,French Writing I,221
+FREN,710,French Writing II,222
+FREN,711,French Linguistics Today,275
+FREN,712,Advanced French: Oral Practice,300
+FREN,713,Francophone World,330
+FREN,714,Survey of French Literature to 1600,341
+FREN,715,Topics in Québécois Literature,430
+FREN,716,Thesis Proposal,896
+FREN,717,MA Project,897
+FREN,718,MA Thesis,898
+FREN,719,Extended Essays,998
+FREN,720,Field Examination,999
+GA,721,Studies in Asian Cultures,202
+GEOG,722,Our World: Introducing Human Geography,100
+GEOG,723,"Climate Change, Water, and Society",104
+GEOG,724,Canada,162
+GEOG,725,Economic Worlds,221
+GEOG,726,Geographical Information Science I,255
+GEOG,727,Geography Practicum I,302
+GEOG,728,Geography Practicum II,303
+GEOG,729,Geography of Natural Hazards,312
+GEOG,730,Cities and Crisis,364
+GEOG,731,Health Geography,386
+GEOG,732,Geography Practicum III,402
+GEOG,733,Geography Practicum IV,403
+GEOG,734,Directed Readings,404
+GEOG,735,Directed Readings,405
+GEOG,736,Geography Practicum V,409
+GEOG,737,"Cities, Transportation, Infrastructure",424
+GEOG,738,Honours Essay,491
+GEOG,739,Doctoral Qualifying Exams,671
+GEOG,740,Msc Thesis Proposal,677
+GEOG,741,MA Thesis Proposal,678
+GEOG,742,PhD Thesis Proposal,679
+GEOG,743,Directed Readings,691
+GEOG,744,MSc Thesis,697
+GEOG,745,MA Thesis,698
+GEOG,746,PhD Thesis,699
+GERM,747,Introductory German I,102
+GERO,748,Introduction to Gerontology,300
+GERO,749,Research Methods in Gerontology,301
+GERO,750,Nutrition and Aging,407
+GERO,751,Sociology of Aging,420
+GERO,752,MA Practicum,850
+GERO,753,Directed Studies,889
+GERO,754,Project Proposal,896
+GERO,755,Thesis Proposal,897
+GERO,756,MA Project,898
+GERO,757,MA Thesis,899
+GERO,758,Comprehensive Examination I,994
+GERO,759,Comprehensive Examination II,995
+GERO,760,Thesis Proposal,996
+GERO,761,PhD Thesis,998
+GRAD,762,CoPhD Research - Semester away,700
+GRAD,763,Visiting Graduate Research,800
+GRAD,764,Dual Degree Enrollment,850
+GSWS,765,Gender Talk,101
+GSWS,766,"Colonizing Women: Canadian Women in Historical Perspective, 1600-1870s",201
+GSWS,767,Gender Today,210
+GSWS,768,"Race, Class and Gender",314
+GSWS,769,Disciplining Sex: Feminist Science Studies and Sociobiology,316
+GSWS,770,"Special Topics in Gender, Sexuality, and Women's Studies",318
+GSWS,771,"Special Topics in Gender, Sexuality, and Women's Studies",319
+GSWS,772,"Special Topics in Gender, Sexuality, and Women's Studies",320
+GSWS,773,Feminist Currents,398W
+GSWS,774,"Gender, Sex and Numbers",399
+GSWS,775,Selected Topics Graduate Seminar II,831
+GSWS,776,Directed Studies,840
+GSWS,777,Directed Studies II,844
+GSWS,778,MA Thesis,898
+GSWS,779,PhD Comprehensive Examination,997
+GSWS,780,PhD Thesis,998
+GSWS,781,MA Field Exam,999
+HIST,782,Canada since Confederation,102W
+HIST,783,The Americas from Colonization to Independence,104
+HIST,784,Making History: Introduction to Historical Research,200
+HIST,785,"Japan from 1603 to 1867: Peasants, Merchants, Warriors",236
+HIST,786,A Brief History of Modern India - from British Colony to Independent Republic,243
+HIST,787,History of Greek Civilization,277
+HIST,788,Problems in History,299
+HIST,789,Controversies in Canadian History,330W
+HIST,790,The Making of Imperial Russia,334
+HIST,791,World War II,338
+HIST,792,"Development, Aid and Difference in Historical Perspective",358
+HIST,793,The Asia-Pacific War in Modern Japanese History,371
+HIST,794,Popular Culture in Great Britain and Europe,407
+HIST,795,Problems in Modern French History,417W
+HIST,796,Themes in Russian Imperial History,420
+HIST,797,Problems in the Cultural History of Canada,424
+HIST,798,Problems in the History of Sexuality,454
+HIST,799,Problems in World History,472W
+HIST,800,Studies in History II,486
+HIST,801,Studies in History,489
+HIST,802,Honours Essay,498
+HIST,803,Historical Methods,814
+HIST,804,Comprehensive Field 1,860
+HIST,805,Comprehensive Field 2,861
+HIST,806,Comprehensive Field 3,862
+HIST,807,Supervised Readings,897
+HIST,808,MA Thesis,898
+HIST,809,PhD Thesis,899
+HS,810,War and Society,216
+HS,811,History of Greek Civilization,277
+HS,812,Selected Topics in Hellenic Studies,307
+HSCI,813,Foundations of Health Science,130
+HSCI,814,Global Perspectives on Health,160
+HSCI,815,"Ecological Determinants of Human Growth, Development and Health",216
+HSCI,816,The Canadian Health System,305
+HSCI,817,Sickness and Wealth: Health in Global Perspective,308
+HSCI,818,Applied Health Ethics,319W
+HSCI,819,Exploratory Strategies in Epidemiology,330
+HSCI,820,Co-op Practicum I,350
+HSCI,821,Co-op Practicum II,351
+HSCI,822,The Global HIV/AIDS Epidemic,431
+HSCI,823,Cell Pathophysiology Laboratory,440
+HSCI,824,Co-op Practicum III,450
+HSCI,825,Co-op Practicum IV,451
+HSCI,826,Co-op Practicum V,452
+HSCI,827,Senior Seminar in Social Health Science,481
+HSCI,828,Senior Seminar in Environmental Health,483
+HSCI,829,Senior Seminar in Global Health,486
+HSCI,830,Directed Research in Health Sciences,489
+HSCI,831,Research Proposal,490
+HSCI,832,Independent Research,491
+HSCI,833,Honours Research Thesis,492
+HSCI,834,Extended Independent Research,493
+HSCI,835,Independent Laboratory Research,494
+HSCI,836,Special Topics in Experiential Global Health Learning,496
+HSCI,837,Program Planning and Evaluation,826
+HSCI,838,Practicum,880
+HSCI,839,Special Topics in Experiential Global Health Learning,885
+HSCI,840,MSc Thesis Proposal,886
+HSCI,841,MSc Thesis,887
+HSCI,842,Directed Studies in Health Sciences,893
+HSCI,843,Directed Studies in Health Sciences,894
+HSCI,844,MPH Project,897
+HSCI,845,MPH Thesis,898
+HSCI,846,Comprehensive Exam and Thesis Proposal,983
+HSCI,847,PhD Thesis,990
+HUM,848,Introduction to the Humanities,101W
+HUM,849,Classical Mythology,102W
+HUM,850,Introduction to Religious Studies,130
+HUM,851,Studies in Modern Culture,240
+HUM,852,Literatures and the Arts Across Cultures,309
+HUM,853,Special Topics in Asian Religious Traditions,331
+HUM,854,Great Cities in Their Time,340
+HUM,855,Selected Topics in Asian Cultures,382
+IAT,856,Digital Image Design,100
+IAT,857,Graphic Design,102
+IAT,858,Design Communication and Collaboration,103W
+IAT,859,Visual Communication Design,110
+IAT,860,"Digital Games: Genre, Structure, Programming and Play",167
+IAT,861,Drawing as Inquiry,208
+IAT,862,Introduction to Game Studies: Theory and Design,210
+IAT,863,Interactive Arts,222
+IAT,864,Information Design,235
+IAT,865,Multimedia Programming for Art and Design,265
+IAT,866,Introduction to Technological Systems,267
+IAT,867,Co-op Practicum I,271
+IAT,868,Co-op Practicum II,272
+IAT,869,Writing Methods for Research,309W
+IAT,870,Foundations of Game Design,312
+IAT,871,Narrative and New Media,313
+IAT,872,Interaction Design Methods,333
+IAT,873,Interface Design,334
+IAT,874,Materials in Design,336
+IAT,875,Web Design and Development,339
+IAT,876,Animation,343
+IAT,877,Co-op Practicum III,373
+IAT,878,Co-op Practicum IV,374
+IAT,879,Co-op Practicum V,375
+IAT,880,Directed Studies,386
+IAT,881,Directed Studies,387
+IAT,882,Business of Design III: Refinement and Production,430
+IAT,883,Design Evaluation,432
+IAT,884,Special Topics in Interactive Arts and Technology (Arts),480
+IAT,885,Directed Studies,486
+IAT,886,Directed Studies,487
+IAT,887,Honours Project I,490
+IAT,888,Honours Project II,491
+IAT,889,Special Topics VIII,888
+IAT,890,PhD Comprehensive Exam,890
+IAT,891,MA Thesis,897
+IAT,892,MSc Thesis,898
+IAT,893,PhD Thesis,899
+INS,894,Comprehensive Exam,890
+INS,895,Directed Readings,891
+INS,896,Directed Readings,892
+INS,897,Directed Readings,893
+INS,898,Directed Readings,894
+INS,899,Directed Readings,895
+INS,900,Special Topics,896
+INS,901,President's Dream Colloquium,897
+INS,902,Master's Thesis,898
+INS,903,PhD Thesis,899
+IS,904,Global Challenges of the 21st Century: An Introduction to International Studies,101
+IS,905,Around the World through Film,105
+IS,906,Security and Global Governance: Interdisciplinary Perspectives,200
+IS,907,Global History from the Revolutionary Age to the Present,265
+IS,908,"Returning from Abroad: Discussion Seminar to Unpack the Experience of Work, Study & Research Abroad",301
+IS,909,Special Topics in International Security and Conflict,309
+IS,910,Seminar on Global Problems in Interdisciplinary Perspective,350W
+IS,911,"Development, Aid and Difference in Historical Perspective",358
+IS,912,Directed Readings,428
+IS,913,Inside Diplomacy: A Practitioner's Perspective,444
+IS,914,Seminar on Core Texts in International Studies,451
+IS,915,Honours Seminar,490
+IS,916,Field Practice,497
+IS,917,Honours Essay,499
+IS,918,Special Topics in Governance and Conflict,808
+IS,919,Directed Readings,820
+IS,920,MA Extended Essays,880
+IS,921,Thesis Prospectus,886
+IS,922,MA Thesis,898
+ITAL,923,Introductory Italian I,100
+ITAL,924,Intermediate Italian II,201
+JAPN,925,Introduction to Japanese I,100
+JAPN,926,Introduction to Japanese II,101
+JAPN,927,Advanced Beginners' Japanese I,200
+JAPN,928,Advanced Beginners' Japanese II,201
+LBRL,929,Co-op I,750
+LBRL,930,Co-op II,751
+LBRL,931,Co-op III,752
+LBST,932,Introducing Labour Studies,101
+LBST,933,Special Topics in Labour Studies,230
+LBST,934,"Labour Movements: Issues, Images and Popular Culture",301W
+LBST,935,The Political Economy of Labour Markets: Critical and Radical Approaches,306
+LBST,936,The Labour Process: Technological Change and the Future of Work,308
+LBST,937,Labour and the Environment,311
+LBST,938,Selected Topics in Labour Studies,330
+LING,939,Communication and Language,100
+LING,940,Introduction to English Vocabulary Analysis,111
+LING,941,"Language, Culture and Society",160
+LING,942,Introduction to English Sentence Analysis,200
+LING,943,Introduction to Linguistics,220
+LING,944,Interdisciplinary Topics in Linguistics,280
+LING,945,Writing for Linguistics,282W
+LING,946,Sociolinguistics,309W
+LING,947,Phonology,321
+LING,948,Morphology,323
+LING,949,First Language Acquisition,350
+LING,950,Introduction to Teaching English as a Second Language to Adults,362
+LING,951,Topics in Phonetics,401
+LING,952,Neurolinguistics,415
+LING,953,Topics in Linguistics I,480
+LING,954,Discourse and Pragmatics,803
+LING,955,Topics in Linguistics III,812
+LING,956,First Nations Linguistics MA Project,893
+LING,957,MA Thesis,898
+LING,958,PhD Thesis,899
+LS,959,Directed Study,829
+LS,960,Extended Essays (Completion),990
+LS,961,MA Project (Completion),991
+LS,962,MA Extended Essays,998
+LS,963,MA Project,999
+MACM,964,Numerical Analysis I,316
+MASC,965,Directed Studies,400
+MASC,966,Directed Studies in Marine Sciences,401
+MASC,967,Marine Invertebrate Zoology,410
+MASC,968,Crustacean Biology,417
+MASC,969,Subtidal Science,419
+MASC,970,Marine Ecology,430
+MASC,971,Special Topics in Marine Biology,471
+MASC,972,Special Topics in Marine Biology,476
+MASC,973,Special Topics in Marine Biology,477
+MASC,974,Special Topics in Marine Biology,478
+MASC,975,Special Topics,504
+MATH,976,Calculus I with Review,150
+MATH,977,Calculus II,152
+MATH,978,Calculus II for the Biological Sciences,155
+MATH,979,Calculus I for the Social Sciences,157
+MATH,980,Principles of Mathematics for Teachers,190
+MATH,981,Applied Linear Algebra,232
+MATH,982,Algebra I: Linear Algebra,240
+MATH,983,Calculus III,251
+MATH,984,Vector and Complex Analysis for Applied Sciences,254
+MATH,985,Introduction to Ordinary Differential Equations,310
+MATH,986,Job Practicum I,336
+MATH,987,Job Practicum II,337
+MATH,988,Elementary Number Theory,342
+MATH,989,Linear Analysis,419
+MATH,990,Job Practicum III,436
+MATH,991,Job Practicum IV,437
+MATH,992,Continuous Mathematical Models,461
+MATH,993,Linear Analysis,719
+MATH,994,Continuous Mathematical Models,761
+MATH,995,Supplementary Reading,877
+MATH,996,PhD Thesis Proposal,879
+MATH,997,MSc Project,880
+MATH,998,Co-op I,890
+MATH,999,Co-op II,891
+MATH,1000,Reading,894
+MATH,1001,Reading,895
+MATH,1002,MSc Thesis,898
+MATH,1003,PhD Thesis,899
+MBB,1004,Practicum I,151
+MBB,1005,Biochemistry of the Cell,201
+MBB,1006,Molecular Biology and Biochemistry,222
+MBB,1007,Cellular Biology and Biochemistry,231
+MBB,1008,Data Analysis for Molecular Biology and Biochemistry,243
+MBB,1009,Practicum II,251
+MBB,1010,Molecular Biology Laboratory,308
+MBB,1011,Intermediary Metabolism,321
+MBB,1012,Molecular Biology,331
+MBB,1013,Introductory Genomics and Bioinformatics,342
+MBB,1014,Practicum III,351
+MBB,1015,Developmental Biology of Cell Signalling,402
+MBB,1016,RNA-mediated Gene Regulation,429
+MBB,1017,Advanced Molecular Biology Techniques,432
+MBB,1018,Practicum IV,451
+MBB,1019,Practicum V,452
+MBB,1020,Forensic Genomics,463
+MBB,1021,Directed Research - Honours Thesis,481
+MBB,1022,Directed Research - Honours Research Performance,482
+MBB,1023,Directed Research - Honours Thesis Defense,483
+MBB,1024,Directed Readings in Molecular Biology and Biochemistry,490
+MBB,1025,Directed Research I,491
+MBB,1026,Directed Research II,492
+MBB,1027,Directed Research for MBB-BUS and MBB-CS Joint Honours,496
+MBB,1028,Directed Research,498
+MBB,1029,Developmental Biology of Cell Signalling,702
+MBB,1030,RNA-mediated Gene Regulation,729
+MBB,1031,PhD Graduate Research Candidacy Examination,806
+MBB,1032,Directed Readings in Molecular Biology and Biochemistry,871
+MBB,1033,Directed Readings in Molecular Biology and Biochemistry,872
+MBB,1034,Directed Readings in Molecular Biology and Biochemistry,873
+MBB,1035,MSc Thesis,898
+MBB,1036,PhD Thesis,899
+MSE,1037,Mechatronics Design I,110
+MSE,1038,Mechatronics for non-Engineers,111
+MSE,1039,Optional Job Practicum,193
+MSE,1040,Industrial Internship I,293
+MSE,1041,Special Internship I,294
+MSE,1042,The Business of Engineering I,300
+MSE,1043,Introduction to Microelectromechanical Systems,311
+MSE,1044,Mechatronics Design II,312
+MSE,1045,Power Electronics and Electric Machinery,353
+MSE,1046,Feedback Control Systems,381
+MSE,1047,Industrial Internship II,393
+MSE,1048,Special Internship II,394
+MSE,1049,Technology Entrepreneurship II,404
+MSE,1050,"The Business of Engineering II, Entrepreneurship for Engineers",405W
+MSE,1051,Capstone Design Technical Project II,411
+MSE,1052,Power Conversion in Alternative Energy Systems,452
+MSE,1053,Industrial Control Systems,481
+MSE,1054,Directed Studies in Mechatronic Systems Engineering,486
+MSE,1055,Directed Studies in Mechatronic Systems Engineering,487
+MSE,1056,Directed Studies in Mechatronic Systems Engineering,489
+MSE,1057,Special Topic in Mechatronic Systems Engineering,491
+MSE,1058,Industrial Internship III,493
+MSE,1059,Special Internship III,494
+MSE,1060,Special Project Laboratory,495
+MSE,1061,Special Project Laboratory,496
+MSE,1062,Special Project Laboratory,497
+MSE,1063,Mechatronic Systems Engineering  Thesis Proposal,498
+MSE,1064,Mechatronic Systems Engineering  Undergraduate Thesis,499
+MSE,1065,Introduction to MEMS,711
+MSE,1066,Graduate Co-op I,793
+MSE,1067,Microdevice Engineering and Characterization,811
+MSE,1068,Advanced Conduction Heat Transfer,821
+MSE,1069,PhD Qualifying Examination,890
+MSE,1070,Directed Studies I,891
+MSE,1071,Directed Studies II,892
+MSE,1072,Special Topics II,894
+MSE,1073,Special Topics III,895
+MSE,1074,MASc Thesis,898
+MSE,1075,PhD Thesis,899
+NEUR,1076,Translational and Integrative Neuroscience Workshop,802
+NUSC,1077,Directed Study in Advanced Topics in Nuclear,482
+ONC,1078,Seminars in Oncology,510
+ONC,1079,Rotation in Oncology,548
+PHIL,1080,Knowledge and Reality,100W
+PHIL,1081,Critical Thinking,105
+PHIL,1082,Introduction to Logic and Reasoning,110
+PHIL,1083,Moral and Legal Problems,120W
+PHIL,1084,Great Works in the History of Philosophy,150
+PHIL,1085,Introduction to Existentialism,280
+PHIL,1086,Introduction to Philosophy,300
+PHIL,1087,Social and Political Philosophy,320
+PHIL,1088,Topics in Moral Philosophy,321
+PHIL,1089,Topics in Law and Philosophy,326
+PHIL,1090,Selected Topics,331
+PHIL,1091,Topics in the Philosophy of Mind,343
+PHIL,1092,Topics in the History of Philosophy,357
+PHIL,1093,Advanced Topics in Ethical Theory,421W
+PHIL,1094,Selected Topics,435
+PHIL,1095,Contemporary Issues in Epistemology and Metaphysics,455W
+PHIL,1096,Seminar II,467W
+PHIL,1097,Honours Tutorial I,477
+PHIL,1098,Honours Tutorial II,478
+PHIL,1099,Selected Topics in Epistemology,802
+PHIL,1100,Selected Topics in Metaphysics,803
+PHIL,1101,Selected Topics in Logic I,812
+PHIL,1102,Selected Topics Meta-Ethics,823
+PHIL,1103,MA Thesis,898
+PHIL,1104,Professional Paper Project Completion,899
+PHYS,1105,Introduction to Physics,100
+PHYS,1106,Physics for the Life Sciences I,101
+PHYS,1107,Physics for the Life Sciences II,102
+PHYS,1108,"Optics, Electricity and Magnetism",121
+PHYS,1109,Physics Laboratory II,133
+PHYS,1110,Practicum I,335
+PHYS,1111,Practicum II,336
+PHYS,1112,Practicum III,435
+PHYS,1113,Practicum IV,436
+PHYS,1114,Practicum V,437
+PHYS,1115,MSc Thesis,898
+PHYS,1116,PhD Thesis,899
+PLCY,1117,Advanced Policy Analysis II,809
+PLCY,1118,Co-op,850
+POL,1119,Introduction to Politics and Government,100
+POL,1120,Politics of Prosperity and Inequality,131
+POL,1121,"War, International Cooperation and Development",141
+POL,1122,"Science, Policy, and Innovation",150
+POL,1123,Justice and Law,151
+POL,1124,Investigating Politics: Research Design and Qualitative Methods,200W
+POL,1125,Introductory Quantitative Methods in Political Science,201
+POL,1126,Introduction to Political Philosophy,210
+POL,1127,Introduction to Canadian Government,221
+POL,1128,US Politics,232
+POL,1129,Identity Politics,310
+POL,1130,Contemporary Perspectives on Ancient Political Thought,311
+POL,1131,"Migration, Identity, and Citizenship",317
+POL,1132,The Canadian Federal System,321
+POL,1133,Developing Countries in Global Politics,342
+POL,1134,International Law,344
+POL,1135,Human Rights Theories,417
+POL,1136,Democracy in a Global World,430W
+POL,1137,Theories of Global Political Economy,447
+POL,1138,Selected Topics in International Relations,448
+POL,1139,Selected Topics in Public Policy,460
+POL,1140,"NATO Field School, Simulation and Experiential Learning Program",484
+POL,1141,Directed Readings in Political Science,498
+POL,1142,International Political Economy,844
+POL,1143,Issues in Social and Economic Policy,856
+POL,1144,"NATO Field School, Simulation, and Experiential Learning Program",880
+POL,1145,PhD Seminar,890
+POL,1146,Master's Seminar,891
+POL,1147,Research Project,892
+POL,1148,Readings in Political Sciences,893
+POL,1149,Readings in Political Science II,894
+POL,1150,Extended Essays,895
+POL,1151,PhD Comprehensive Exam,896
+POL,1152,Field Exam in Major Areas of MA Concentration,897
+POL,1153,MA Thesis,898
+POL,1154,PhD Thesis Research,899
+PSYC,1155,Introduction to Psychology I,100
+PSYC,1156,Psychological Issues in Contemporary Society,106
+PSYC,1157,Introduction to Research Methods in Psychology,201W
+PSYC,1158,Introduction to Data Analysis in Psychology,210
+PSYC,1159,Introduction to Biological Psychology,280
+PSYC,1160,Critical Analysis of Issues in Psychology,300W
+PSYC,1161,Learning and Memory,325
+PSYC,1162,Developmental Disabilities,359
+PSYC,1163,Close Relationships,362
+PSYC,1164,Intervention: Process and Outcome,371
+PSYC,1165,Experimental Psychology and Law,376
+PSYC,1166,Clinical Forensic Psychology,379
+PSYC,1167,Psychopharmacology,383
+PSYC,1168,Evolution and Psychology,385
+PSYC,1169,Biological Rhythms and Sleep,388
+PSYC,1170,Selected Topics in Psychology,391
+PSYC,1171,Research Engagement,393
+PSYC,1172,Advanced Topics in History and Theoretical Psychology,402
+PSYC,1173,Field School I,425
+PSYC,1174,Field School II,426
+PSYC,1175,Advanced Topics in Developmental Psychology,450
+PSYC,1176,Directed Studies,493
+PSYC,1177,Directed Studies,494
+PSYC,1178,Directed Studies,495
+PSYC,1179,Proseminar in History and Systems,705
+PSYC,1180,Clinical Practice,825
+PSYC,1181,Junior Practicum,880
+PSYC,1182,Senior Practicum,881
+PSYC,1183,Neuropsychology Practicum,882
+PSYC,1184,Internship,886
+PSYC,1185,Practicum in Clinical Forensic Psychology,890
+PSYC,1186,Research/Policy Practicum in Law and Psychology,892
+PSYC,1187,MA Thesis Proposal,895
+PSYC,1188,PhD Thesis Proposal,896
+PSYC,1189,Research Project/Law & Psyc/Forensic Psyc,897
+PSYC,1190,MA Thesis,898
+PSYC,1191,PhD Thesis,899
+PSYC,1192,Research Comprehensive Examination 1,991
+PSYC,1193,Research Comprehensive Examination 2,992
+PSYC,1194,Research Comprehensive Examination 3,993
+PSYC,1195,Directed Studies,997
+PSYC,1196,Directed Readings,998
+PSYC,1197,PhD Clinical Comprehensive Examination,999
+PUB,1198,Graphic Design Fundamentals,231
+PUB,1199,Graphic Design in Transition: Print and Digital Periodicals,332
+PUB,1200,The Book Publishing Process,372
+PUB,1201,Design Awareness in Publishing Processes and Products,438
+PUB,1202,Special Topics in Publishing,480
+PUB,1203,Directed Readings in Publishing,484
+PUB,1204,Internship Project Report (Completion),897
+PUB,1205,Publishing Internship or Project,899
+REM,1206,Global Change,100
+REM,1207,"Sustainable Communities, Sustainable World",281
+REM,1208,Environmental and Planning Law,319
+REM,1209,Building Sustainable Communities: Concepts and Cases,381
+REM,1210,Special Topics,463
+REM,1211,MRM Thesis,697
+REM,1212,Research Project,699
+REM,1213,Thesis Proposal,898
+REM,1214,PhD Thesis,899
+SA,1215,Perspectives on Canadian Society (SA),100W
+SA,1216,Introduction to Anthropology (A),101
+SA,1217,Introduction to Sociology (S),150
+SA,1218,Anthropology and Contemporary Life (A),201W
+SA,1219,Violence in War and Peace (SA),203
+SA,1220,Introduction to Sociological Theory (S),250
+SA,1221,Understanding Quantitative Research in Sociology and Anthropology (SA),257
+SA,1222,Global Problems and the Culture of Capitalism (SA),302W
+SA,1223,Social Control (S),304
+SA,1224,New Information Technology and Society (SA),315
+SA,1225,Tourism and Social Policy (S),316
+SA,1226,Technologies of Health and Expectation (A),318
+SA,1227,Social Movements (S),321
+SA,1228,"Food, Ecology and Social Thought (S)",326
+SA,1229,Sociology of Knowledge (S),327
+SA,1230,Gender Relations and Social Issues (S),335
+SA,1231,"Race, Immigration and the Canadian State (S)",345
+SA,1232,Classical Sociological Thought (S),350
+SA,1233,"Games, Sports and Cultures (A)",352
+SA,1234,Quantitative Methods (S),355
+SA,1235,Ethnography and Qualitative Methods (SA),356W
+SA,1236,The Philosophy of the Social Sciences (S),358
+SA,1237,Special Topics in Anthropology (A),359
+SA,1238,Urban Communities and Cultures (SA),364
+SA,1239,Comparative Studies of Minority Indigenous Peoples (A),388
+SA,1240,Sociology of Aging (S),420
+SA,1241,Directed Readings in Anthropology (A),496
+SA,1242,Directed Readings in Sociology (S),497
+SA,1243,Field Study in Sociology and/or Anthropology (SA),498
+SA,1244,Honours Essay (SA),499
+SA,1245,Readings in Sociology I,853
+SA,1246,Readings in Sociology II,854
+SA,1247,Readings in Anthropology I,871
+SA,1248,Readings in Anthropology II,872
+SA,1249,PhD Qualifying Examinations,897
+SA,1250,MA Thesis,898
+SA,1251,PhD Thesis,899
+SCI,1252,Science and its Impact on Society,300
+SCI,1253,Sepcial Topics in Science Interdisciplinarity,390
+SD,1254,"Sustainable Communities, Sustainable World",281
+SD,1255,Building Sustainable Communities: Concepts and Cases,381
+SEE,1256,Statics and Mechanics of Materials,221
+SEE,1257,Electric Circuits,230
+SEE,1258,"Measurement, Analysis and Forecasting",241
+SEE,1259,Industrial Internship I,290
+SEE,1260,Special Internship I,294
+SEE,1261,Integrated Energy Solution II,310
+SEE,1262,Heat and Mass Transfer for Energy Engineering,324
+SEE,1263,Power Electronics,331
+SEE,1264,Signals and Systems,341
+SEE,1265,Directed Studies,891
+SEE,1266,MASc Research Seminar,896
+SEE,1267,PhD Research Seminar,897
+SPAN,1268,Introductory Spanish I,102
+SPAN,1269,Introductory Spanish II,103
+STAT,1270,Chance and Data Analysis,100
+STAT,1271,Statistics for the Life Sciences,201
+STAT,1272,Introduction to Statistics for the Social Sciences,203
+STAT,1273,Introduction to Probability and Statistics,270
+STAT,1274,Statistics Communication,300W
+STAT,1275,Analysis of Experimental and Observational Data,302
+STAT,1276,Job Practicum I,336
+STAT,1277,Job Practicum II,337
+STAT,1278,Job Practicum III,436
+STAT,1279,Job Practicum IV,437
+STAT,1280,Job Practicum V,438
+STAT,1281,Analysis of Experimental and Observational Data,604
+STAT,1282,Co-op I,880
+STAT,1283,Co-op II,881
+STAT,1284,Co-op III,882
+STAT,1285,Reading,894
+STAT,1286,Reading,895
+STAT,1287,PhD Comprehensive Exam,897
+STAT,1288,MSc Project,898
+STAT,1289,PhD Thesis,899
+TEKX,1290,Introduction to 3D Printing and Laser Scanning Technologies,101
+TRSS,1291,Policy Making and Decision Analysis in Security Studies,731
+URB,1292,STT-International Field Studies,497
+URB,1293,Urban Professional Development II,602
+URB,1294,Global Cities,655
+URB,1295,International Field Studies,691
+URB,1296,Directed Readings I,693
+URB,1297,Directed Readings II,694
+URB,1298,Selected Topics in Urban Studies,695
+URB,1299,Research Project,697
+URB,1300,Research Project Completion,699
+URB,1301,Co-operative Education I,701
+URB,1302,Co-operative Education II,702
+WL,1303,What is World Literature?,100
+WL,1304,Modern World Literatures,104W
+WL,1305,Creative Writing in World Literature,307
+WL,1306,Interdisciplinary Approaches to World Literature,320
