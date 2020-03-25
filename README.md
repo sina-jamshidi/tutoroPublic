@@ -34,7 +34,7 @@ Some of these are smaller than others. I will be working on this part time.
 
 [X] Allow tutors to edit course price without having to remove a course and re-add it (added feb 13)
 
-[] Sort match results? (currently tutors sorted by price)
+[] Sort match results
 
 [] Add autocomplete to adding courses to profile
 
